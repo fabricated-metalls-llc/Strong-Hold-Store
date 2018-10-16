@@ -1,0 +1,314 @@
+/*
+ Theme Name:   Shapely Flammable Cab
+ Description:  Shepely Child Theme for Flammable Cabinet Landing Page
+ Author:       Avery Wardrup
+ Template:     shapely
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Text Domain:  shapely-flammable-cab
+*/
+
+body {
+    font-size: 16px;
+    /*color: #fff;*/
+}
+h1, h2, h3, h4, h5, h6{
+	font-weight: 600;
+}
+
+.h4, h4 {
+    /*color: #444444;*/
+}
+
+.no-pad{
+    padding: 0 !important;
+}
+
+.main-navigation {
+    background-color: #222;
+    /*border-bottom: 1px solid #777;
+    min-height: 150px;*/
+    padding-top: 23px;
+}
+
+.call-outs li {
+    list-style: none;
+    float: left;
+    margin-right: 40px;
+}
+
+.call-outs{
+    margin-left: 0px;
+}
+.main-navigation h1{
+	text-align: center;
+    font-size: 3em;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    display: block;
+    margin: 0;
+    padding: 0;
+    color: #ffffff;
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 150%;
+    letter-spacing: normal;
+    box-sizing: border-box !important;
+}
+
+.main-navigation p{
+	text-align: center;
+    font-size: 1em;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    margin: 10px 0;
+    padding: 0;
+    color: #808080;
+    font-family: Helvetica;
+    line-height: 150%;
+    box-sizing: border-box !important;
+}
+
+.flame-icon{
+	border: 0px;
+    width: 75px;
+    height: auto;
+    margin: 0px;
+    float: right;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    outline: none;
+    text-decoration: none;
+    max-width: 100%;
+    box-sizing: border-box !important;
+}
+
+.header-callout{
+	background: #222222 url(https://www.strong-hold.com/images/big-background.jpg) repeat-x bottom/cover;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    position: relative;
+    display: flex;
+    flex-shrink: 0;
+    justify-content: center;
+    padding-right: 0px;
+    padding-left: 0px;
+    background-color: #222222;
+    /*background-image: url(https://www.strong-hold.com/images/fire-gif.gif);
+    background-repeat: repeat-x;
+    background-position: bottom;
+    background-size: cover;*/
+    border-top: 0;
+    border-bottom: 1px solid #777777;
+    padding-top: 39px;
+    padding-bottom: 39px;
+    box-sizing: border-box !important;
+}
+
+.bg-secondary {
+    background: transparent;
+    text-align: center;
+}
+
+h3.page-title {
+    color: #fff !important;
+    font-size: 2.5em;
+}
+
+.page-title-section{
+  padding: 0;
+  height: 100px;
+}
+
+.header-callout section{
+  padding: 0;
+}
+
+.product {
+    /*text-align: center;*/
+}
+
+.woocommerce div.product .woocommerce-tabs ul.tabs li::after, .woocommerce div.product .woocommerce-tabs ul.tabs li::before {
+    border: none;
+    position: absolute;
+    bottom: 0;
+    width: 0;
+    height: 50px;
+}
+.woocommerce div.product .woocommerce-tabs ul.tabs::before{
+  border-bottom: none;
+}
+
+.woocommerce div.product .woocommerce-tabs ul.tabs {
+    padding: 5px;
+    margin: 0;
+}
+
+.main-navigation .menu li a {
+    font-size: 14px;
+    color: #fff;
+}
+
+.dropdown:after {
+    color: #fff;
+}
+
+#yith-searchsubmit{
+  display: none;
+}
+
+.woocommerce .widget_price_filter .ui-slider .ui-slider-handle, .woocommerce .widget_price_filter .ui-slider .ui-slider-range {
+    background-color: #000;
+}
+
+.woocommerce ul.products li.product .price, .woocommerce div.product p.price, .woocommerce div.product span.price {
+    color: #333333;
+}
+
+.single-product #primary {
+    width: 100%;
+}
+
+.single-product #secondary {
+    display: none;
+}
+
+.btn-danger{
+	background-color: #C72A23;
+	border-radius: 2px !important;
+	border: none !important;
+	margin-bottom: 5px;
+	margin-right: 0;
+	padding: 15px 30px;
+    font-size: 16px;
+    text-transform: capitalize;
+}
+
+.nav.fixed{
+	position: relative !important;
+}
+
+.btn:visited {
+    color: #ffffff;
+}
+
+a:hover{
+	text-decoration: none;
+}
+
+.divider{
+	width: 100%;
+	height: 150px;
+}
+
+.bg-dark {
+    background: #000000;
+}
+
+.border {
+    width: 100%;
+    border-top: 1px solid #fff;
+    margin-top: -70px;
+}
+
+#gform_submit_button_1{
+	width: 100%;
+	max-width: 100%;
+	border-radius: 2px;
+	font-size: 16px !important;
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	/*text-transform: capitalize !important;*/
+}
+.gform_wrapper ul.gform_fields li.gfield {
+    padding-right: 0px !important;
+}
+
+#menu-footer li {
+    width: 48%;
+    float: left;
+    margin-left: 5px;
+    
+}
+
+#menu-footer li a{
+    color: #C72A23;
+    font-size: 16px;
+}
+
+.widget.widget_archive > div ul li, .widget.widget_archive ul li, .widget.widget_categories > div ul li, .widget.widget_categories ul li, .widget.widget_meta > div ul li, .widget.widget_meta ul li, .widget.widget_pages > div ul li, .widget.widget_pages ul li, .widget.widget_nav_menu > div ul li, .widget.widget_nav_menu ul li {
+    border-bottom: none; 
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+#menu-footer li a:before {
+    display: inline-block;
+    font: normal normal normal 16px/1 FontAwesome;
+    content: "\f0da";
+    margin-right: 4px;
+    color: #ffffff;
+    font-size: 16px;
+}
+
+.call-outs li img {
+    height: 75px;
+    width: auto;
+    /*opacity: .75;*/
+    /*-webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    -o-filter: grayscale(100%);
+    -ms-filter: grayscale(100%);
+    filter: grayscale(100%); */
+}
+
+.call-outs li img:hover{
+    -webkit-filter: grayscale(0%);
+    -moz-filter: grayscale(0%);
+    -o-filter: grayscale(0%);
+    -ms-filter: grayscale(0%);
+    filter: grayscale(0%);
+}
+
+.call-outs li span {
+    /* border: 3px solid #000; */
+    /* padding: 15px 30px; */
+    /* border-radius: 44px; */
+    /* background: yellow; */
+    /* color: #fff; */
+    font-weight: bold;
+    /* width: 75px; */
+    /* height: 75px; */
+    font-size: 2.5em !important;
+    /* margin-top: 10px; */
+    position: absolute;
+    z-index: 1000;
+    top: 0px;
+    left: 25px;
+}
+
+.call-outs-wrapper{
+    margin: 25px;
+}
+
+.coupon{
+    width: 42%;
+}
+
+.home .header-callout {
+    display: none;
+}
+
+.shipping{
+    background: #C52828;
+    padding: 20px;
+    color: #fff;
+    margin: 0;
+}
+
+@media all and (max-width: 767px) {
+    .coupon{
+        width: 100%;
+    }
+}

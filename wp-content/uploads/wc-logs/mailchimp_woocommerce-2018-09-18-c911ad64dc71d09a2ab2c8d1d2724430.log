@@ -1,0 +1,23 @@
+2018-09-18T15:29:54+00:00 NOTICE coupon_sync.success :: update promo rule :: #imts
+2018-09-18T15:29:54+00:00 NOTICE sync.started :: Starting Sync :: Tue, Sep 18, 2018 3:29 PM
+2018-09-18T15:29:56+00:00 NOTICE coupon_sync.completed :: Done with the coupon sync.
+2018-09-18T15:29:56+00:00 NOTICE product_sync.success :: addStoreProduct :: #54
+2018-09-18T15:29:57+00:00 NOTICE product_sync.success :: addStoreProduct :: #55
+2018-09-18T15:29:57+00:00 NOTICE product_sync.success :: addStoreProduct :: #56
+2018-09-18T15:29:59+00:00 NOTICE product_sync.completed :: Done with the product sync :: queuing up the orders next!
+2018-09-18T15:30:01+00:00 NOTICE order_submit.completed :: Done with the order sync.
+2018-09-18T15:30:01+00:00 NOTICE sync.completed :: Finished Sync :: Tue, Sep 18, 2018 3:30 PM
+2018-09-18T15:31:06+00:00 NOTICE promo_code.update :: updated promo code imts
+2018-09-18T15:31:15+00:00 NOTICE promo_code.update :: updated promo code imts
+2018-09-18T16:49:54+00:00 NOTICE product_submit.success :: addStoreProduct :: #54
+2018-09-18T16:51:31+00:00 NOTICE product_submit.success :: addStoreProduct :: #55
+2018-09-18T16:52:02+00:00 NOTICE product_submit.success :: addStoreProduct :: #56
+2018-09-18T16:52:02+00:00 NOTICE sync.started :: Starting Sync :: Tue, Sep 18, 2018 4:52 PM
+2018-09-18T16:52:02+00:00 NOTICE coupon_sync.success :: update promo rule :: #imts
+2018-09-18T16:52:04+00:00 NOTICE coupon_sync.completed :: Done with the coupon sync.
+2018-09-18T16:52:04+00:00 NOTICE product_sync.success :: addStoreProduct :: #54
+2018-09-18T16:52:05+00:00 NOTICE product_sync.success :: addStoreProduct :: #55
+2018-09-18T16:52:05+00:00 NOTICE product_sync.success :: addStoreProduct :: #56
+2018-09-18T16:52:07+00:00 NOTICE product_sync.completed :: Done with the product sync :: queuing up the orders next!
+2018-09-18T16:52:09+00:00 NOTICE order_submit.completed :: Done with the order sync.
+2018-09-18T16:52:09+00:00 NOTICE sync.completed :: Finished Sync :: Tue, Sep 18, 2018 4:52 PM
